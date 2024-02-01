@@ -6,13 +6,45 @@
 }
 
 .container {
+    position: relative;
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
     column-gap: 5px;
+    align-items: start;
 }
+.frame {
+    height: 100%; /* Can be anything */
+    width: auto; /* Can be anything */
+    position: relative;
+}
+
 .text {
-    font-size: 25px;
+    height: auto;
+    width: auto;
+    font-size: 1.68vw;
+}
+.image {
+    width: auto;
+    height: 100%;
+    position: relative;
+    vertical-align: top;
+    left: auto;
+}
+.framed_img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: auto;
+    right: auto;
+    margin: auto;
+}
+img {
+    max-height: 100%;
+    max-width: 100%;
 }
 ul{
     list-style:none;
@@ -68,11 +100,7 @@ h1 {
     width: 200px;
     height: 300px;
 }
-img
-{
-    max-height:100%;
-    max-width: 100%;
-}
+
 .row::after
 {
     content: "";
