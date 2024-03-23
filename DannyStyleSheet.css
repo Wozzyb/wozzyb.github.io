@@ -19,10 +19,14 @@
     position: relative;
 }
 
+.paddingit {
+    padding: 10px;
+}
 .text {
     height: auto;
     width: auto;
     font-size: 1.78vw;
+    
 }
 .image {
     width: auto;
